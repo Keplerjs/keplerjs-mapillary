@@ -1,9 +1,9 @@
 
 Package.describe({
   name: "keplerjs:mapillary",
-  summary: "Keplerjs Goole Maps API",
+  summary: "Keplerjs mapillary API",
   version: "1.2.1",
-  git: "https://github.com/Keplerjs/Kepler.git"
+  git: "https://github.com/Keplerjs/keplerjs-mapillary.git"
 });
 
 /*Npm.depends({
