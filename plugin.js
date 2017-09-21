@@ -1,7 +1,7 @@
 
 K.Plugin({
 	name: 'mapillary',
-	placeholders: {
+	templates: {
 		panelPlace: ['panelPlace_mapillary']
 	},
 /*	settings: {

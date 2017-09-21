@@ -2,7 +2,7 @@
 Package.describe({
   name: "keplerjs:mapillary",
   summary: "Keplerjs mapillary API",
-  version: "1.2.1",
+  version: "1.2.2",
   git: "https://github.com/Keplerjs/keplerjs-mapillary.git"
 });
 
@@ -15,7 +15,7 @@ Package.onUse(function (api) {
   api.versionsFrom(['METEOR@1.0']);
 
   api.use([
-    'keplerjs:core@1.2.1',
+    'keplerjs:core@1.2.2',
   ]);
 
   api.addFiles([
