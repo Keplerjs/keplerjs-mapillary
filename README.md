@@ -4,4 +4,4 @@ Keplerjs Mapillary API
 
 https://www.mapillary.com/developer/api-documentation/
 
-Coming Soon...
+*WORK IN PROGRESS*
