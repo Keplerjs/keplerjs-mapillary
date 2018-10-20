@@ -1,21 +1,22 @@
+var version = '1.4.1';
+
 Package.describe({
-  version: "1.3.7",
+  version: version,
   name: "keplerjs:mapillary",
   summary: "Keplerjs mapillary API",
   git: "https://github.com/Keplerjs/keplerjs-mapillary.git"
 });
 
-/*Npm.depends({
+/*TODONpm.depends({
   "mapillary-js": "2.7.0",
 });
 */
 Package.onUse(function (api) {
+  api.use([
+    'keplerjs:core@'+version,
+  ]);
 
   api.versionsFrom("1.5.1");
-
-  api.use([
-    'keplerjs:core@1.3.7',
-  ]);
 
   api.addFiles([
     'plugin.js',
